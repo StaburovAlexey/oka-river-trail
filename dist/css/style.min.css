@@ -8595,3 +8595,9 @@ input[type=range]::-ms-thumb {
   text-align: center;
   width: 65%;
 }
+
+.video-conteiner__video {
+  width: 100%;
+  aspect-ratio: 2/1;
+  margin: 20px auto 0;
+}
