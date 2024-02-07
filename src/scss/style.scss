@@ -1,0 +1,15 @@
+$font-stack: "EBGaramondSC08", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+@import "normalize";
+@import "fonts";
+@import "materialize.min";
+@import "header";

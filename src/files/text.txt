@@ -1,0 +1,48 @@
+npm init
+---------------
+packagejson
+
+main gulpfile.js
+type module
+
+---------------
+
+npm i gulp-cli -g   глобально
+---------------------------
+npm i gulp -d  среда разработки
+-----------------------
+npm -i -D del
+--------------------
+npm i -D gulp-file-include сборка html
+------------------------------------
+npm i -D gulp-replace  плагины
+----------------------------
+npm i -D gulp-webp-html-nosvg
+-----------------------------
+npm i -D gulp-version-number
+-------------------------------
+npm i -D gulp-plumber gulp-notify
+----------------------------------
+npm i -D browser-sync
+-------------------------
+npm i -D gulp-sass sass
+------------------------
+npm i -D gulp-rename
+---------------------
+npm i -D gulp-clean-css gulp-webpcss gulp-autoprefixer gulp-group-css-media-queries
+тудаже
+npm i -D webp-converter@2.2.3
+------------------------------
+npm i -D webpack webpack-stream
+-----------------------------------
+npm i -D gulp-imagemin gulp-webp
+--------------------------------------
+npm i -D gulp-newer
+--------------------------
+npm i -D gulp-fonter gulp-ttf2woff2
+--------------------------------
+npm i -D gulp-if
+-------------------------
+npm i -D gulp-zip
+
+
