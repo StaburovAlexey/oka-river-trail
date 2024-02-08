@@ -1,0 +1,42 @@
+.container-photo{
+  height: auto;
+}
+
+.grid-conteiner {
+  position: relative;
+  z-index: 0;
+  background-color: transparent;
+}
+
+.grid-conteiner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  background-color: black;
+  z-index: -1;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.grid-photo{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.photo{
+  width: 100%;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 10px
+  ;
+}

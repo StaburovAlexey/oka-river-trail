@@ -1,7 +1,42 @@
-.video-container {}
+.video-container {
+
+}
+
+.video-conteiner__text{
+  font-size: 1.5rem;
+}
 
 .video-conteiner__video {
   width: 100%;
   aspect-ratio: 2/1;
   margin: 20px auto 0;
+}
+
+.container-icons {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 30px;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.icon-vk {
+  background-image: url('@img/icons8-vk (1).svg')
+}
+
+.icon-mail {
+  background-image: url('@img/icons8-конверт-в-круге-48.png')
+}
+
+.icon-inst {
+  background-image: url('@img/icons8-instagram.svg')
 }

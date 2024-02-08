@@ -7,10 +7,14 @@ $font-stack: "EBGaramondSC08", sans-serif;
 
 body {
   position: relative;
+  width: 100%;
+  font-family: $font-stack;
 }
+
 
 @import "normalize";
 @import "fonts";
 @import "materialize.min";
 @import "header";
-@import "video-container"
+@import "video-container";
+@import "container-photo"
