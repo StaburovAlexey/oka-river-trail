@@ -8715,3 +8715,7 @@ input[type=range]::-ms-thumb {
 .color {
   background-color: #bcc5cc;
 }
+
+.program {
+  padding: 50px 0;
+}
