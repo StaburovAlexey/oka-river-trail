@@ -9,6 +9,7 @@ body {
   position: relative;
   width: 100%;
   font-family: $font-stack;
+  // background-color: #bcc5cc;
 }
 
 
@@ -19,3 +20,4 @@ body {
 @import "video-container";
 @import "container-photo";
 @import "programm";
+@import "prize-winer";

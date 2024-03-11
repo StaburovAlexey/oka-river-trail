@@ -1,0 +1,33 @@
+.prize-winner {
+
+  // background-color: #bcc5cc;
+
+  h2 {
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .prize-winner__cards {
+    // display: flex;
+    padding: 20px 0 0 0 ;
+  }
+
+  .prize-winner__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+
+      @media screen and (max-width: 600px) {
+        max-width: 50%;
+      }
+    }
+
+    h4 {
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
+}

@@ -1,3 +1,21 @@
-.program{
+.program {
   padding: 50px 0;
+  @media screen and (max-width: 600px){
+    padding: 20px 0;
+  }
+}
+
+.program__info {
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+
+  li {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  span{
+    font-weight: 900;
+    font-size: 2rem;
+  }
 }
