@@ -9,9 +9,19 @@ body {
   position: relative;
   width: 100%;
   font-family: $font-stack;
+  box-sizing: border-box;
   // background-color: #bcc5cc;
 }
 
+main {}
+
+.forUs {
+  padding: 30px 0 0 0;
+
+  h2 {
+    margin: 0 0 20px 0
+  }
+}
 
 @import "normalize";
 @import "fonts";
@@ -23,3 +33,4 @@ body {
 @import "prize-winer";
 @import "distance";
 @import "questions";
+@import "footer";

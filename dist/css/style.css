@@ -8,6 +8,14 @@ body {
   position: relative;
   width: 100%;
   font-family: "EBGaramondSC08", sans-serif;
+  box-sizing: border-box;
+}
+
+.forUs {
+  padding: 30px 0 0 0;
+}
+.forUs h2 {
+  margin: 0 0 20px 0;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -8637,6 +8645,10 @@ input[type=range]::-ms-thumb {
   }
 }
 
+.date {
+  font-size: 1.5rem;
+}
+
 .video-conteiner__text {
   font-size: 1.5rem;
 }
@@ -8698,7 +8710,7 @@ input[type=range]::-ms-thumb {
 }
 @media screen and (max-width: 1023px) {
   .grid-photo {
-    grid-template-columns: repeat(1, minmax(120px, 1fr));
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
   }
 }
 
@@ -8718,6 +8730,8 @@ input[type=range]::-ms-thumb {
 
 .program {
   padding: 50px 0;
+  position: relative;
+  z-index: -1;
 }
 @media screen and (max-width: 600px) {
   .program {
@@ -8773,7 +8787,27 @@ input[type=range]::-ms-thumb {
   font-size: 2rem;
 }
 
+.questions {
+  padding: 0 0 20px 0;
+}
+.questions li {
+  font-size: 1.5rem;
+}
+.questions span {
+  font-size: 2rem;
+}
 .questions .collapsible-header {
   display: flex;
   justify-content: space-between;
+}
+
+.footer {
+  width: 100%;
+  padding: 50px 0 20px 0;
+  box-sizing: border-box;
+  background-color: black;
+  margin: 0 auto;
+}
+.footer .footer__info {
+  margin: 0 0 20px 0;
 }
