@@ -8764,3 +8764,16 @@ input[type=range]::-ms-thumb {
   text-align: center;
   font-size: 2rem;
 }
+
+.distance {
+  padding: 30px 0 0 0;
+  width: 100%;
+}
+.distance .card-content {
+  font-size: 2rem;
+}
+
+.questions .collapsible-header {
+  display: flex;
+  justify-content: space-between;
+}

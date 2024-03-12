@@ -11,7 +11,7 @@ testWebP(function (support) {
 document.addEventListener("DOMContentLoaded", function () {
   var elems = document.querySelectorAll(".sidenav");
   var instances = M.Sidenav.init(elems, {
-    edge: "right",
+    edge: "right"
   });
 });
 
@@ -26,4 +26,16 @@ if (document.documentElement.clientWidth > 769) {
     var instances = M.Materialbox.init(elems, {});
   });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.collapsible');
+  var instances = M.Collapsible.init(elems, {});
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.scrollspy');
+  var instances = M.ScrollSpy.init(elems, {
+    activeClass: false
+  });
+});
 
