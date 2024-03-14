@@ -13,10 +13,16 @@ body {
   // background-color: #bcc5cc;
 }
 
-main {}
+.condition{
+  background-color: grey;
+  padding: 30px 0;
+  h4{
+    margin: 0;
+  }
+}
 
 .forUs {
-  padding: 30px 0 0 0;
+  padding: 30px 0;
 
   h2 {
     margin: 0 0 20px 0

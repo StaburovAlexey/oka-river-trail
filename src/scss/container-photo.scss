@@ -28,8 +28,8 @@
   grid-auto-rows: auto;
   gap: 0.8rem;
   padding: 1rem;
-  @media screen and (max-width: 1023px){
-    grid-template-columns: repeat(2, minmax(120px, 1fr));
+  @media screen and (max-width: 748px){
+    grid-template-columns: repeat(1, minmax(120px, 1fr));
   }
 }
 

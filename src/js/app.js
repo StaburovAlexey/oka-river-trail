@@ -20,13 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
   var instances = M.Parallax.init(elems, {});
 });
 
-// if (document.documentElement.clientWidth > 769) {
-//   document.addEventListener('DOMContentLoaded', function() {
-//     var elems = document.querySelectorAll('.materialboxed');
-//     var instances = M.Materialbox.init(elems, {});
-//   });
-// }
-
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.materialboxed');
   var instances = M.Materialbox.init(elems, {});
