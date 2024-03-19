@@ -11,7 +11,7 @@ testWebP(function (support) {
 document.addEventListener("DOMContentLoaded", function () {
   var elems = document.querySelectorAll(".sidenav");
   var instances = M.Sidenav.init(elems, {
-    edge: "right"
+    edge: "right",
   });
 });
 
@@ -20,20 +20,17 @@ document.addEventListener("DOMContentLoaded", function () {
   var instances = M.Parallax.init(elems, {});
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.materialboxed');
+document.addEventListener("DOMContentLoaded", function () {
+  var elems = document.querySelectorAll(".materialboxed");
   var instances = M.Materialbox.init(elems, {});
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.collapsible');
+document.addEventListener("DOMContentLoaded", function () {
+  var elems = document.querySelectorAll(".collapsible");
   var instances = M.Collapsible.init(elems, {});
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.scrollspy');
-  var instances = M.ScrollSpy.init(elems, {
-    activeClass: false
-  });
+document.addEventListener("DOMContentLoaded", function () {
+  var elems = document.querySelectorAll(".scrollspy");
+  var instances = M.ScrollSpy.init(elems, {});
 });
-
