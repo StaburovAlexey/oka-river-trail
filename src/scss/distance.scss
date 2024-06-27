@@ -1,7 +1,12 @@
-.distance{
+.distance {
   padding: 30px 0 0 0;
   width: 100%;
-  .card-content{
+
+  img {
+    aspect-ratio: 3/2;
+  }
+
+  .card-content {
     font-size: 2rem;
   }
 }
