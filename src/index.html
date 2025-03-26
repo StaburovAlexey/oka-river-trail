@@ -23,6 +23,7 @@
     <li><a href="#programm">Программа забега</a></li>
     <li><a href="#prize-winner">Подарки на забеге</a></li>
     <li><a href="#distance">Дистанции</a></li>
+    <li><a href="#accommodation">Проживание</a></li>
     <li><a href="#questions">Вопросы и ответы</a></li>
     <li><a href="#contacts">Контакты</a></li>
   </ul>
@@ -32,9 +33,9 @@
       <img src="@img/headerBottom.jpg" alt="" class="img-bottom" />
       <div class="header__info-container one white-text">
         <h2 class="header__info-title">
-          с.Алеканово, <span class="yellow-text">Рязанская область</span>
+          База отдыха Звёздный, <span class="yellow-text">Рязанская область</span>
         </h2>
-        <span class="date">25 августа</span>
+        <span class="date">7 сентября</span>
         <p class="header__info-text">
           Равнинный трейл в самом сердце России!<br>Поля, реки, озера и леса для
           любителей бега и активного отдыха.
@@ -44,7 +45,7 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="main">
     <div class="white-text black scrollspy forUs" id="forUs">
       <div class="container">
         <h2 class="center">Oka River Trail</h2>
@@ -85,21 +86,26 @@
         <h2 class="col s12 center">Oka River Trail</h2>
         <div class="col s12 black-text white program__info">
           <h3 class="center">Программа забега:</h3>
-          <span class="center span">25 августа, воскресенье</span>
+          <span class="center span">6 сентября, суббота</span>
           <ul class="program__list">
             <li><span>07:30 - 11:00</span> - выдача стартовых номеров</li>
-            <li><span>08:30</span> - брифинг для участников забега 50 км</li>
+          </ul>
+          <span class="center span">7 сентября, воскресенье</span>
+          <ul class="program__list">
+            <li><span>07:00</span> - начало работы трансфера участников до б.о. «Звездный» от пл.Театральной г.Рязань</li>
+            <li><span>07:30 - 11:00</span> - выдача стартовых номеров</li>
+            <li><span>08:30 </span> - брифинг для участников забега 50 км</li>
             <li><span>09:00</span> - старт на дистанцию 50 км</li>
             <li><span>09:30</span> - брифинг для участников забега 30 км</li>
             <li><span>10:00</span> - старт на дистанцию 30 км</li>
             <li><span>10:30</span> - брифинг для участников забега 10 км</li>
             <li><span>11:00</span> - старт на дистанцию 10 км</li>
             <li><span>12:20</span> - истечение КВ для 10 км</li>
-            <li><span>13:00</span> - награждение победителей и призёров дистанции 10 км</li>
+            <li><span>13:00</span> - старт детских забегов</li>
             <li><span>14:00</span> - истечение КВ для 30 км</li>
-            <li><span>14:30</span> - награждение победителей и призёров дистанции 30 км</li>
+            <li><span>15:00</span> - награждение победителей и призёров всех забегов</li>
             <li><span>16:30</span> - истечение КВ для 50 км</li>
-            <li><span>17:00</span> - награждение победителей и призёров дистанции 50 км</li>
+            <li><span>17:00</span> - закрытие соревнований</li>
           </ul>
         </div>
       </div>
@@ -131,45 +137,54 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="@img/10km.jpg" class="materialboxed">
+              <img src="https://placeholder.apptor.studio/200/200/RAND.png" class="materialboxed">
             </div>
             <div class="card-content">
               <p>10 км</p>
               <p>от 14 лет</p>
             </div>
-            <div class="card-action">
-              <a href="./files/10km.zip">СКАЧАТЬ ТРЕК</a>
+            <div class="card-action disabled" >
+              <a href="./files/10km.zip">ТРЕК СКОРО</a>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="@img/30km.jpg" class="materialboxed">
+              <img src="https://placeholder.apptor.studio/200/200/product2.png" class="materialboxed">
             </div>
             <div class="card-content">
               <p>30 км</p>
               <p>от 18 лет</p>
             </div>
-            <div class="card-action">
-              <a href="./files/30km.zip">СКАЧАТЬ ТРЕК</a>
+            <div class="card-action disabled">
+              <a href="./files/30km.zip">ТРЕК СКОРО</a>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="@img/50km.jpg" class="materialboxed">
+              <img src="https://placeholder.apptor.studio/200/200/product3.png" class="materialboxed">
             </div>
             <div class="card-content">
               <p>50 км</p>
               <p>от 18 лет</p>
             </div>
-            <div class="card-action">
-              <a href="./files/50km.zip">СКАЧАТЬ ТРЕК</a>
+            <div class="card-action disabled">
+              <a href="./files/50km.zip">ТРЕК СКОРО</a>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="accommodation container scrollspy" id="accommodation">
+      
+      <div class="accommodation__conteiner-menu one white-text">
+        <h2 class="white-text center accommodation__header">Проживание</h2>
+        <p>На время проведения соревнований вы можете остановиться непосредственно на базе отдыха <strong class="yellow-text">«Звёздный»</strong>, где будет организован стартово-финишный городок. <br/>Вас ждёт отдых в окружении соснового леса, с возможностью снять номер в гостинице или поставить палатку в организованном кемпинге.</p>
+        <a href="https://zvezdnyi.com/uslugi/" target="_blank"
+          class="btn blue opacity">Забронировать</a>
       </div>
     </div>
     <div class="questions container scrollspy" id="questions">
