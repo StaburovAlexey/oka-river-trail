@@ -5,8 +5,8 @@ $font-stack: "centurygothic", sans-serif;
   margin: 0;
   padding: 0;
 }
-.main{
-  display: flex;  
+.main {
+  display: flex;
   flex-direction: column;
 }
 body {
@@ -20,7 +20,15 @@ body {
 .condition {
   background-color: grey;
   padding: 30px 0;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .btn-condition {
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid #039be5;
+    border-radius: 10px;
+  }
   h4 {
     margin: 0;
   }
