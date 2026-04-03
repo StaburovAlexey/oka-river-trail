@@ -1,0 +1,47 @@
+.accommodation {
+  display: flex;
+  width: 100% !important;
+  max-width: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/accommodation-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+
+  .accommodation__conteiner-menu {
+    position: relative;
+    z-index: 0;
+    width: 60%;
+    max-width: 700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    gap: 20px;
+    @media screen and (max-width: 1023px) {
+      width: 90%;
+      .accommodation__header {
+        font-size: 42px;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      z-index: -1;
+      background-color: black;
+      border-radius: 20px;
+      opacity: 0.8;
+    }
+  }
+}

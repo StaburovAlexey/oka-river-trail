@@ -5,7 +5,10 @@ $font-stack: "centurygothic", sans-serif;
   margin: 0;
   padding: 0;
 }
-
+.main {
+  display: flex;
+  flex-direction: column;
+}
 body {
   position: relative;
   width: 100%;
@@ -17,7 +20,16 @@ body {
 .condition {
   background-color: grey;
   padding: 30px 0;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .btn-condition {
+    width: fit-content;
+    background-color: #039be5;
+    padding: 10px;
+    border: 2px solid #039be5;
+    border-radius: 10px;
+  }
   h4 {
     margin: 0;
   }
@@ -27,12 +39,22 @@ body {
   padding: 30px 0;
 
   h2 {
-    margin: 0 0 20px 0
+    margin: 0 0 20px 0;
   }
 }
 
 .opacity:hover {
   opacity: 0.7;
+}
+.card-action.disabled::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  opacity: 0.1;
 }
 
 @import "normalize";
@@ -46,4 +68,5 @@ body {
 @import "distance";
 @import "questions";
 @import "footer";
-@import "partner"
+@import "partner";
+@import "accommodation";

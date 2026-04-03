@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="" />
-  <link type="image/x-icon" href="./img/favicon.ico" rel="shortcut icon">
-  <link type="Image/x-icon" href="./img/favicon.ico" rel="icon">
+  <link type="image/x-icon" href="../src/img/favicon.ico" rel="shortcut icon">
+  <link type="Image/x-icon" href="../src/img/favicon.ico" rel="icon">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="./css/style.min.css" />
   <title></title>
@@ -23,6 +23,7 @@
     <li><a href="#programm">Программа забега</a></li>
     <li><a href="#prize-winner">Подарки на забеге</a></li>
     <li><a href="#distance">Дистанции</a></li>
+    <li><a href="#accommodation">Проживание</a></li>
     <li><a href="#questions">Вопросы и ответы</a></li>
     <li><a href="#contacts">Контакты</a></li>
   </ul>
@@ -32,9 +33,9 @@
       <img src="@img/headerBottom.jpg" alt="" class="img-bottom" />
       <div class="header__info-container one white-text">
         <h2 class="header__info-title">
-          с.Алеканово, <span class="yellow-text">Рязанская область</span>
+          База отдыха Звёздный, <span class="yellow-text">Рязанская область</span>
         </h2>
-        <span class="date">25 августа</span>
+        <span class="date">7 сентября</span>
         <p class="header__info-text">
           Равнинный трейл в самом сердце России!<br>Поля, реки, озера и леса для
           любителей бега и активного отдыха.
@@ -44,7 +45,7 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="main">
     <div class="white-text black scrollspy forUs" id="forUs">
       <div class="container">
         <h2 class="center">Oka River Trail</h2>
@@ -76,30 +77,37 @@
       </div>
     </div>
     <div class="condition scrollspy center" id="condition">
-      <h4 class="black-text opacity"><a
-          href="https://docs.google.com/document/d/1R0fyUonV5TytoHDKrmV4dyHyqIFZm3sypPe1KnHBsII/edit?usp=sharing"><i
-            class="material-icons big">event_note</i>Положение 2024</a></h3>
+      <h4 class="black-text opacity btn-condition"><a class="white-text"
+          href="https://docs.google.com/document/d/1ifJRXE-zF06EftCPZhhGnLaK-87HZ3OVfKg_zDO_FZo/edit?usp=sharing"><i
+            class="material-icons big ">event_note</i>Положение 2025г.</a></h3>
     </div>
     <div class="program black" id="programm">
       <div class="row white-text container">
         <h2 class="col s12 center">Oka River Trail</h2>
         <div class="col s12 black-text white program__info">
           <h3 class="center">Программа забега:</h3>
-          <span class="center span">25 августа, воскресенье</span>
+          <span class="center span">6 сентября, суббота</span>
+          <ul class="program__list">
+            <li><span>10:00 - 14:00</span> - выдача стартовых номеров в магазине Ozzy (Рязань, Кольцова 4)</li>
+            <li><span>18:00 - 22:00</span> - паста-пати и вечер у костра под гитару в Звёздном</li>
+          </ul>
+          <span class="center span">7 сентября, воскресенье</span>
           <ul class="program__list">
             <li><span>07:30 - 11:00</span> - выдача стартовых номеров</li>
-            <li><span>08:30</span> - брифинг для участников забега 50 км</li>
+            <li><span>08:30 </span> - брифинг для участников забега 50 км</li>
             <li><span>09:00</span> - старт на дистанцию 50 км</li>
             <li><span>09:30</span> - брифинг для участников забега 30 км</li>
             <li><span>10:00</span> - старт на дистанцию 30 км</li>
-            <li><span>10:30</span> - брифинг для участников забега 10 км</li>
+            <li><span>10:30</span> - официальное открытие соревнований, брифинг для участников забега 10 км</li>
             <li><span>11:00</span> - старт на дистанцию 10 км</li>
+            <li><span>12:00</span> - начало работы фудкорта и ярмарки</li>
             <li><span>12:20</span> - истечение КВ для 10 км</li>
-            <li><span>13:00</span> - награждение победителей и призёров дистанции 10 км</li>
+            <li><span>13:00</span> - начало выступления музыкальных групп</li>
+            <li><span>14:00</span> - старт детских забегов</li>
             <li><span>14:00</span> - истечение КВ для 30 км</li>
-            <li><span>14:30</span> - награждение победителей и призёров дистанции 30 км</li>
+            <li><span>15:00</span> - награждение победителей и призёров всех забегов</li>
             <li><span>16:30</span> - истечение КВ для 50 км</li>
-            <li><span>17:00</span> - награждение победителей и призёров дистанции 50 км</li>
+            <li><span>17:00</span> - закрытие соревнований</li>
           </ul>
         </div>
       </div>
@@ -120,7 +128,7 @@
           <h4>Медаль финишера</h4>
         </div>
         <div class="col m3 s12 prize-winner__card center">
-          <img src="@img/gift.png" alt="">
+          <img src="@img/gift-no-download.png" alt="">
           <h4>Подарки от наших спонсоров</h4>
         </div>
       </div>
@@ -137,8 +145,8 @@
               <p>10 км</p>
               <p>от 14 лет</p>
             </div>
-            <div class="card-action">
-              <a href="./files/10km.zip">СКАЧАТЬ ТРЕК</a>
+            <div class="card-action" >
+              <a href="./files/10km.zip">Скчать Трек</a>
             </div>
           </div>
         </div>
@@ -152,7 +160,7 @@
               <p>от 18 лет</p>
             </div>
             <div class="card-action">
-              <a href="./files/30km.zip">СКАЧАТЬ ТРЕК</a>
+              <a href="./files/30km.zip">Скчать Трек</a>
             </div>
           </div>
         </div>
@@ -165,11 +173,20 @@
               <p>50 км</p>
               <p>от 18 лет</p>
             </div>
-            <div class="card-action">
-              <a href="./files/50km.zip">СКАЧАТЬ ТРЕК</a>
+            <div class="card-action ">
+              <a href="./files/50km.zip">Скчать Трек</a>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="accommodation container scrollspy" id="accommodation">
+      
+      <div class="accommodation__conteiner-menu one white-text">
+        <h2 class="white-text center accommodation__header">Проживание</h2>
+        <p>На время проведения соревнований вы можете остановиться непосредственно на базе отдыха <strong class="yellow-text">«Звёздный»</strong>, где будет организован стартово-финишный городок. <br/>Вас ждёт отдых в окружении соснового леса, с возможностью снять номер в гостинице или поставить палатку в организованном кемпинге.</p>
+        <a href="https://zvezdnyi.com/booking" target="_blank"
+          class="btn blue opacity">Забронировать</a>
       </div>
     </div>
     <div class="questions container scrollspy" id="questions">
@@ -180,17 +197,17 @@
           <div class="collapsible-body">
             <ul>
               <li><span>10km</span></li>
-              <li>до 01.06.24 500₽</li>
-              <li>до 23.07.24 1000₽</li>
-              <li>до 23.08.24 1500₽</li>
+              <li>до 01.06.25 1500₽</li>
+              <li>до 01.08.25 2000₽</li>
+              <li>до 06.09.25 2500₽</li>
               <li><span>30km</span></li>
-              <li>до 01.06.24 1000₽</li>
-              <li>до 23.07.24 1500₽</li>
-              <li>до 23.08.24 2000₽</li>
+              <li>до 01.06.25 2000₽</li>
+              <li>до 01.08.25 2500₽</li>
+              <li>до 06.09.25 3000₽</li>
               <li><span>50km</span></li>
-              <li>до 01.06.24 1000₽</li>
-              <li>до 23.07.24 1500₽</li>
-              <li>до 23.08.24 2000₽</li>
+              <li>до 01.06.25 2000₽</li>
+              <li>до 01.08.25 2500₽</li>
+              <li>до 06.09.25 3000₽</li>
 
             </ul>
           </div>
@@ -199,7 +216,7 @@
           <div class="collapsible-header">Нужна ли медицинская справка?<i class="material-icons right">add</i></div>
           <div class="collapsible-body"><span>Да, медицинская справку необходима. Подробнее о вариантах
               предоставляемых документов смотрите в <a
-                href="https://docs.google.com/document/d/1R0fyUonV5TytoHDKrmV4dyHyqIFZm3sypPe1KnHBsII/edit?usp=sharing">Положении</a></span>
+                href="https://docs.google.com/document/d/1ifJRXE-zF06EftCPZhhGnLaK-87HZ3OVfKg_zDO_FZo/edit?usp=sharing">Положении</a></span>
           </div>
         </li>
         <li>
@@ -213,9 +230,14 @@
           </div>
         </li>
         <li>
+          <div class="collapsible-header">Трансфер<i class="material-icons right">add</i></div>
+          <div class="collapsible-body">
+           Трансфер участников возможен на специальном автобусе, который будет ходить от площади Театральной г.Рязани до места проведения соревнований. Трансфер платный. Информация появится ближе к дате проведения соревнований.
+          </div>
+        </li>
+        <li>
           <div class="collapsible-header">Получение стартового номера<i class="material-icons right">add</i></div>
-          <div class="collapsible-body">Получение стартовых номеров будет проходить 25 августа в соответствии с
-            программой в центре соревнований (кафе Villa Birra)</div>
+          <div class="collapsible-body">Получение стартовых номеров будет проходить 6 сентября с 10:00 до 14:00 по адресу г.Рязань, ул.Кольцова д.4 магазин “Ozzy”, а также 7 сентября с 7:30 до 11:00 в соответствии с программой в центре соревнований.</div>
         </li>
         <li>
           <div class="collapsible-header">Обязательное снаряжение<i class="material-icons right">add</i></div>
@@ -284,10 +306,33 @@
       <a href="https://sportshop62.ru" class="partner__link col s12 m6 l3">
         <img src="@img/logo-sport-shop.png" alt="Спорт-шоп" class="partner__image" />
       </a>
+      
+      <a href="https://xn--62-dlchfa1dva2l.xn--p1ai/?ysclid=m8h945r4tt960420893" class="partner__link col s12 m6 l3">
+        <img src="@img/deravnya.png" alt="Деревня" class="partner__image" />
+      </a>
+      <a href="https://zvezdnyi.com/" class="partner__link col s12 m6 l3">
+        <img src="@img/zvezdny.png" alt="Звёздный" class="partner__image" />
+      </a>
+      <a href="https://t.me/s/lovkosport" class="partner__link col s12 m6 l3">
+        <img src="@img/lovko.png" alt="Lovko" class="partner__image" />
+      </a>
+      <a href="https://vk.link/club143396682" class="partner__link col s12 m6 l3">
+        <img src="@img/sup.png" alt="Sup serfing" class="partner__image" />
+      </a>
+      <a href="https://oldboybarbershop.com/ryazan" class="partner__link col s12 m6 l3">
+        <img src="@img/oldboy.png" alt="OldBoy" class="partner__image" />
+      </a>
+      <a href="https://vk.com/marka_ba" class="partner__link col s12 m6 l3">
+        <img src="@img/marka.png" alt="Марка" class="partner__image" />
+      </a>
+      
+      <a href="https://vk.com/vinoagent" class="partner__link col s12 m6 l3">
+        <img src="@img/vinoagent.png" alt="Виноагент" class="partner__image" />
+      </a>
       <a href="https://villabirra.ru" class="partner__link col s12 m6 l3">
         <img src="@img/villabirra.png" alt="" class="partner__image" />
       </a>
-      <a href="https://minsport.ryazan.gov.ru" class="partner__link col s12 l12">
+      <a href="https://minsport.ryazan.gov.ru" class="partner__link col s12 m6 l3">
         <img src="@img/ryazan-gerb.png" alt="" class="partner__image" />
       </a>
     </div>
@@ -296,20 +341,15 @@
     <div class="row container">
       <div class="col m4 s12 footer__info">
         <h2 class="">Контакты</h2>
-        <p class="yellow-text">г. Рязань, Рязанская обл., Придорожная ул., д.19, село Алеканово</p>
+        <p class="yellow-text">Рязанская область, Спасский район, Панинское сельское поселение, село Выползово</p>
         <a href="mailto:ivan@villa-birra.ru" class="center opacity">ivan@villa-birra.ru</a>
 
       </div>
       <div class="footer__map col m8 s12">
-        <div style="position:relative;overflow:hidden;"><a
-            href="https://yandex.ru/maps/org/villa_birra/34994070027/?utm_medium=mapframe&utm_source=maps"
-            style="color:#eee;font-size:12px;position:absolute;top:0px;">Villa Birra</a><a
-            href="https://yandex.ru/maps/10776/ryazan-oblast/category/cafe/184106390/?utm_medium=mapframe&utm_source=maps"
-            style="color:#eee;font-size:12px;position:absolute;top:14px;">Кафе в Рязанской области</a><a
-            href="https://yandex.ru/maps/10776/ryazan-oblast/category/pizzeria/184106392/?utm_medium=mapframe&utm_source=maps"
-            style="color:#eee;font-size:12px;position:absolute;top:28px;">Пиццерия в Рязанской области</a><iframe
-            src="https://yandex.ru/map-widget/v1/?ll=39.974451%2C54.627849&mode=search&oid=34994070027&ol=biz&z=13.68"
-            width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        <div style="position:relative;overflow:hidden;">
+          <a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a>
+          <a href="https://yandex.ru/maps/10776/ryazan-oblast/geo/ozdorovitelny_kompleks_zvyozdny/4120081602/?ll=40.170566%2C54.536097&utm_medium=mapframe&utm_source=maps&z=16.53" style="color:#eee;font-size:12px;position:absolute;top:14px;">Оздоровительный комплекс Звёздный — Яндекс Карты</a>
+          <iframe src="https://yandex.ru/map-widget/v1/?ll=40.170566%2C54.536097&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo0MTIwMDgxNjAyEsYB0KDQvtGB0YHQuNGPLCDQoNGP0LfQsNC90YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsINCh0L_QsNGB0YHQutC40Lkg0YDQsNC50L7QvSwg0J_QsNC90LjQvdGB0LrQvtC1INGB0LXQu9GM0YHQutC-0LUg0L_QvtGB0LXQu9C10L3QuNC1LCDQvtC30LTQvtGA0L7QstC40YLQtdC70YzQvdGL0Lkg0LrQvtC80L_Qu9C10LrRgSDQl9Cy0ZHQt9C00L3Ri9C5IgoNgq4gQhVCJVpC&z=16.53" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
         </div>
       </div>
     </div>
